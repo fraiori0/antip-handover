@@ -53,6 +53,31 @@ header p {
     line-height: 1.6;
 }
 
+/* Central Video Section */
+.central-video {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.central-video h2 {
+    color: #3a4a5b;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.central-video .video-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.central-video iframe {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+
 /* Grid Container */
 .grid-container {
     display: grid;
