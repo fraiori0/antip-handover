@@ -1,6 +1,6 @@
 /* Add this to your style.css file */
 body {
-    display: flex;
+    /* display: flex; */
     justify-content: center; /* Centers content horizontally */
     align-items: center;    /* Centers content vertically */
     min-height: 100vh;      /* Ensures the body takes the full viewport height */
@@ -54,4 +54,32 @@ article {
 }
 article h3 {
     color: #bce7fd;
+}
+
+/* Grid container for experiments */
+.experiment-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* 1 part for titles, 2 parts for videos */
+    gap: 20px; /* Spacing between rows and columns */
+    margin-top: 20px;
+}
+
+/* Style for row titles */
+.row-title {
+    font-weight: bold;
+    text-align: right;
+    padding: 10px;
+    align-self: center;
+    background: #f4f4f4;
+    border-right: 3px solid #007ACC;
+    border-radius: 8px 0 0 8px;
+}
+
+/* Video container styling */
+.video {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0 8px 8px 0;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
