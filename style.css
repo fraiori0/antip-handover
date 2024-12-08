@@ -1,14 +1,21 @@
+/* Add this to your style.css file */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;    /* Centers content vertically */
+    min-height: 100vh;      /* Ensures the body takes the full viewport height */
+    margin: 0;              /* Removes default margin */
+    text-align: center;     /* Centers text in child elements */
+    background: #f9f9f9;    /* Optional: light background color for better visibility */
+    font-family: Arial, sans-serif; /* Optional: font style */
+    line-height: 1.6;       /* Optional: increased line spacing for better readability */
 }
 header {
-    background: #007ACC;
+    background: #bce7fd;
     color: white;
     padding: 10px 20px;
     text-align: center;
+    font-size: 1.5em; /* Optional: increased font size for header */
 }
 nav {
     text-align: center;
@@ -17,7 +24,7 @@ nav {
 }
 nav a {
     margin: 0 10px;
-    color: #007ACC;
+    color: #bce7fd;
     text-decoration: none;
 }
 section {
@@ -27,7 +34,7 @@ section {
 footer {
     text-align: center;
     padding: 10px;
-    background: #007ACC;
+    background: #bce7fd;
     color: white;
     position: fixed;
     bottom: 0;
@@ -46,5 +53,5 @@ article {
     background: #f9f9f9;
 }
 article h3 {
-    color: #007ACC;
+    color: #bce7fd;
 }
