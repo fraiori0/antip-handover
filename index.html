@@ -3,86 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scientific Page - Example</title>
+    <title>Scientific Paper</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/plotly.js-dist@2.24.0/plotly.min.js"></script> -->
 </head>
 <body>
-    <div class="container">
-        <!-- Header Section -->
-        <header>
-            <div class="header-content">
-                <h1>Scientific Research on Quantum Physics</h1>
-                <p>by Dr. John Doe, Dr. Jane Smith, and Dr. Albert Brown</p>
-            </div>
-        </header>
-        
-        
-
-        <!-- Central YouTube Video Section -->
-        <section class="central-video">
-            <h2>Introduction to Quantum Mechanics</h2>
-            <div class="video-item">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </section>
-
-        <!-- Main Content -->
-         <!-- Abstract Section -->
-        <section class="abstract">
-            <h2>Abstract</h2>
-            <p>This research explores the fundamentals of quantum mechanics and its applications in modern physics. We delve into quantum entanglement, wave-particle duality, and other core principles, aiming to provide a comprehensive understanding of the subject.</p>
-        </section>
-        <div class="content">
-            <!-- Subsection 1: YouTube Videos -->
-            <section class="subsection">
-                <h2>Educational YouTube Videos</h2>
-                <div class="grid-container">
-                    <div class="video-item">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="video-item">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="video-item">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VpZtWBr6iJo" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="video-item">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="video-item">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <div class="video-item">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Subsection 2: Plotly Interactive Graphs -->
-            <section class="subsection">
-                <h2>Interactive Plotly Graphs</h2>
-                <div class="grid-container">
-                    <div class="plotly-item">
-                        <iframe src="assets/plots/perturbed_handovers/Margita_D0625__042_A.1_ratio_and_3d.html" width="100%" height="400px"></iframe>
-                    </div>
-                    <div class="plotly-item">
-                        <iframe src="assets/plots/perturbed_handovers/Margita_D0625__042_A.1_ratio_and_3d.html" width="100%" height="400px"></iframe>
-                    </div>
-                    <div class="plotly-item">
-                        <iframe src="assets/plots/perturbed_handovers/Margita_D0625__042_A.1_ratio_and_3d.html" width="100%" height="400px"></iframe>
-                    </div>
-                    <div class="plotly-item">
-                        <iframe src="assets/plots/perturbed_handovers/Margita_D0625__042_A.1_ratio_and_3d.html" width="100%" height="400px"></iframe>
-                    </div>
-                    <div class="plotly-item">
-                        <iframe src="assets/plots/perturbed_handovers/Margita_D0625__042_A.1_ratio_and_3d.html" width="100%" height="400px"></iframe>
-                    </div>
-                    <div class="plotly-item">
-                        <iframe src="assets/plots/perturbed_handovers/Margita_D0625__042_A.1_ratio_and_3d.html" width="100%" height="400px"></iframe>
-                    </div>
-                </div>
-            </section>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <img src="assets/logo.png" alt="Logo" class="logo">
+            <h1>Title of the Scientific Paper</h1>
+            <p>Authors: John Doe, Jane Smith</p>
         </div>
-    </div>
+    </header>
+
+    <!-- Abstract Section -->
+    <section id="abstract">
+        <h2>Abstract</h2>
+        <p>This is a brief summary of the scientific paper. It provides an overview of the methods, results, and conclusions.</p>
+    </section>
+
+    <!-- YouTube Video -->
+    <section id="youtube-video">
+        <h2>Video Overview</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/example_video_id" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Method Section -->
+    <section id="method">
+        <h2>Method</h2>
+        <img src="assets/method_image.png" alt="Method Image" class="method-image">
+    </section>
+
+    <!-- Results Section -->
+    <section id="result">
+        <h2>Results</h2>
+        
+        <!-- 2x3 Grid of YouTube Videos -->
+        <div class="video-grid">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/example_video_1" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/example_video_2" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/example_video_3" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/example_video_4" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/example_video_5" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/example_video_6" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- 2x4 Grid of Plotly Figures -->
+        <div class="plotly-grid">
+            <div class="plotly">
+                <iframe src="assets/plots/perturbed_handovers/Margita_D0625__042_A.1_ratio_and_3d.html" width="560" height="315"></iframe>
+            </div>
+            <div class="plotly">
+                <iframe src="assets/plots/perturbed_handovers/Margita_D0625__042_A.1_ratio_and_3d.html" width="560" height="315"></iframe>
+            </div>
+            <div class="plotly">
+                <iframe src="assets/plots/perturbed_handovers/Margita_D0625__042_A.1_ratio_and_3d.html" width="560" height="315"></iframe>
+            </div>
+            <div class="plotly">
+                <iframe src="assets/plots/perturbed_handovers/Margita_D0625__042_A.1_ratio_and_3d.html" width="560" height="315"></iframe>
+            </div>
+            <div class="plotly">
+                <iframe src="assets/plots/perturbed_handovers/Margita_D0625__042_A.1_ratio_and_3d.html" width="560" height="315"></iframe>
+            </div>
+            <div class="plotly">
+                <iframe src="assets/plots/perturbed_handovers/Margita_D0625__042_A.1_ratio_and_3d.html" width="560" height="315"></iframe>
+            </div>
+            <div class="plotly">
+                <iframe src="assets/plots/perturbed_handovers/Margita_D0625__042_A.1_ratio_and_3d.html" width="560" height="315"></iframe>
+            </div>
+            <div class="plotly">
+                <iframe src="assets/plots/perturbed_handovers/Margita_D0625__042_A.1_ratio_and_3d.html" width="560" height="315"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
 </body>
 </html>

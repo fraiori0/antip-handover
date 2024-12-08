@@ -1,4 +1,4 @@
-/* General page setup */
+/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
@@ -7,106 +7,80 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.container {
-    width: 75%; /* Restrict content width to 90% of the page */
-    max-width: 1200px;
+    text-align: center;
+    background-color: #f4f4f4;
 }
 
 /* Header Section */
 header {
-    background-color: #3a4a5b;
-    color: #fff;
+    background-color: #4CAF50;
+    color: white;
     padding: 20px;
-    text-align: center;
+}
+
+header .logo {
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 15px;
 }
 
 header h1 {
-    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 2em;
 }
 
 header p {
-    font-style: italic;
+    font-size: 1em;
 }
 
-/* Abstract Section */
-.abstract {
-    margin-top: 30px;
+/* Section Styling */
+section {
+    margin: 30px 0;
     padding: 20px;
-    background-color: #e9ecef;
-    border-radius: 8px;
 }
 
-.abstract h2 {
+section h2 {
+    font-size: 1.8em;
     margin-bottom: 15px;
-    color: #3a4a5b;
 }
 
-.abstract p {
-    font-size: 1.2rem;
-    line-height: 1.6;
+/* Abstract Styling */
+#abstract p {
+    font-size: 1.1em;
+    line-height: 1.5;
 }
 
-/* Central Video Section */
-.central-video {
-    margin-top: 40px;
-    text-align: center;
+/* Method Image Styling */
+#method .method-image {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
 }
 
-.central-video h2 {
-    color: #3a4a5b;
-    margin-bottom: 20px;
-    font-size: 1.8rem;
-}
-
-.central-video .video-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.central-video iframe {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 8px;
-}
-
-/* Grid Container */
-.grid-container {
+/* Video Grid */
+.video-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    margin-top: 30px;
+    justify-items: center;
 }
 
-.grid-container .video-item, .grid-container .plotly-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.video iframe {
+    width: 100%;
+    max-width: 560px;
     height: 315px;
 }
 
-iframe {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 8px;
+/* Plotly Grid */
+.plotly-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
 }
 
-/* Subsection Styling */
-.subsection {
-    margin-top: 50px;
-}
-
-.subsection h2 {
-    color: #3a4a5b;
-    margin-bottom: 15px;
-    font-size: 1.8rem;
-    text-align: center;
+.plotly iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
 }
