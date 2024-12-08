@@ -1,85 +1,61 @@
-/* Add this to your style.css file */
-body {
-    /* display: flex; */
-    justify-content: center; /* Centers content horizontally */
-    align-items: center;    /* Centers content vertically */
-    min-height: 100vh;      /* Ensures the body takes the full viewport height */
-    margin: 0;              /* Removes default margin */
-    text-align: center;     /* Centers text in child elements */
-    background: #f9f9f9;    /* Optional: light background color for better visibility */
-    font-family: Arial, sans-serif; /* Optional: font style */
-    line-height: 1.6;       /* Optional: increased line spacing for better readability */
-}
-header {
-    background: #bce7fd;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 1.5em; /* Optional: increased font size for header */
-}
-nav {
-    text-align: center;
-    background: #f4f4f4;
-    padding: 10px 0;
-}
-nav a {
-    margin: 0 10px;
-    color: #bce7fd;
-    text-decoration: none;
-}
-section {
-    padding: 20px;
-    margin: 20px;
-}
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #bce7fd;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-iframe {
-    display: block;
-    margin: 20px auto;
-}
-/* Styling for subsections */
-article {
-    border: 1px solid #ddd;
-    margin: 20px 0;
-    padding: 15px;
-    border-radius: 8px;
-    background: #f9f9f9;
-}
-article h3 {
-    color: #bce7fd;
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Grid container for experiments */
-/* .experiment-grid { */
-    /* display: grid; */
-    /* grid-template-columns: 1fr 2fr; 1 part for titles, 2 parts for videos */
-    /* gap: 20px; Spacing between rows and columns */
-    /* margin-top: 20px; */
-/* } */
-/*  */
-/* Style for row titles */
-/* .row-title { */
-    /* font-weight: bold; */
-    /* text-align: right; */
-    /* padding: 10px; */
-    /* align-self: center; */
-    /* background: #f4f4f4; */
-    /* border-right: 3px solid #007ACC; */
-    /* border-radius: 8px 0 0 8px; */
-/* } */
-/*  */
-/* Video container styling */
-/* .video { */
-    /* background: #fff; */
-    /* border: 1px solid #ddd; */
-    /* border-radius: 0 8px 8px 0; */
-    /* padding: 5px; */
-    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
-/* } */
+.container {
+    width: 80%;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.subsection {
+    margin: 30px 0;
+}
+
+.subsection h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+iframe {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
