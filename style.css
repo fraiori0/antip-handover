@@ -11,6 +11,8 @@ body, html {
 
 .container {
     width: 80%;
+    max-width: 1200px; /* Restrict maximum width */
+    padding: 0 20px; /* Add some padding to the sides */
     text-align: center;
 }
 
