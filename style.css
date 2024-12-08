@@ -16,7 +16,8 @@ header {
     background-color: #bce7fd;
     color: rgb(0, 0, 0);
     padding: 20px;
-    /* height: 200px; */
+    /*  increase height */
+    height: 200px;
     /* increase font */
     font-size: 1.2em;
 }
