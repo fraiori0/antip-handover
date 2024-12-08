@@ -13,9 +13,10 @@ body {
 
 /* Header Section */
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #bce7fd;
+    color: rgb(0, 0, 0);
     padding: 20px;
+    height: 200px;
 }
 
 header .logo {
@@ -61,26 +62,26 @@ section h2 {
 .video-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 10px;
     justify-items: center;
 }
 
 .video iframe {
     width: 100%;
-    max-width: 560px;
-    height: 315px;
+    max-width: 640px;
+    height: 360px;
 }
 
 /* Plotly Grid */
 .plotly-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 10px;
     justify-items: center;
 }
 
 .plotly iframe {
     width: 100%;
-    max-width: 560px;
-    height: 315px;
+    max-width: 720px;
+    height: 360px;
 }
