@@ -1,0 +1,10 @@
+Should I Stay or Should I Go: Anticipatory Intent Prediction for Adaptive Robot-to-Human Handover
+
+F. Iori, G. Perovic, M. Conti, M. Controzzi, E. Falotico
+
+The handover of objects is a fundamental cooperative action in Human-Robot Collaboration (HRC) tasks, requiring the interplay of multiple skills such as perception, coordination, and adaptation. We present a novel method for generating adaptive robot handover trajectories that account for unmodeled perturbations during the handover. The approach draws inspiration from biological anticipatory control to detect human engagement during the handover, dynamically adjusting the trajectory to slow down or stop when perturbations are detected and resuming once the interaction continues. The method requires minimal perception data, making it computationally efficient, practical to deploy, and adaptable for various handover scenarios. Experimental evaluations demonstrate the system's robustness in handling both standard and perturbed handover conditions,  offering a solution for safer and fluent human-robot interaction.
+
+
+Concept Figure
+
+Scheme of anticipatory detection of handover intention based on two predictions. Orange dots represent the predicted future trajectory of the human hand, \(\hat{\x}_{k+i}^H\). The black arrow is the predicted direction of handover, \({}^h\hat{{\bm u}}_k^H\). In light red, the angular mismatch between the two (in the figure shown considering \(\hat{\x}_{k+3}^H\).
