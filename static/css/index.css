@@ -115,9 +115,9 @@ body {
 }
 
 .results-carousel .item {
-  margin: 5px;
+  margin: 0px;
   overflow: hidden;
-  padding: 20px;
+  padding: 0px;
   font-size: 0;
 }
 
@@ -133,5 +133,20 @@ body {
   font-size: smaller;
 }
 
+.item-youtube-plot-vertical .youtube-plot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
 
+.item-youtube-plot-vertical .plotly-plot {
+  width: 100%;
+  /* height: 720px; Adjust the height as needed */
+}
 
+.item-youtube-plot-vertical iframe {
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
+  margin-top: 50px; /* Add some space between the plot and the video */
+}
