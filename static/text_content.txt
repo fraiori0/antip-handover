@@ -7,4 +7,4 @@ The handover of objects is a fundamental cooperative action in Human-Robot Colla
 
 Concept Figure
 
-Scheme of anticipatory detection of handover intention based on two predictions. Orange dots represent the predicted future trajectory of the human hand, \(\hat{\x}_{k+i}^H\). The black arrow is the predicted direction of handover, \({}^h\hat{{\bm u}}_k^H\). In light red, the angular mismatch between the two (in the figure shown considering \(\hat{\x}_{k+3}^H\).
+Concept of anticipatory detection of handover intention based on two predictions. Orange dots represent the predicted future trajectory of the human hand, \(\hat{\x}_{k+i}^H\). The black arrow is the predicted direction of handover, \({}^h\hat{{\bm u}}_k^H\). In light red, the angular mismatch between the two (in the figure shown considering \(\hat{\x}_{k+3}^H\).
